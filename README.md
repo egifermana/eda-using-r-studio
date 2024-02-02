@@ -1,1 +1,1 @@
-# EDA-using-R
+# Exploratory Data Analysis using R
