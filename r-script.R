@@ -56,13 +56,3 @@ print(tukey_result)
 significant_differences <- tukey_result$`kota`[, 4]
 print("Perbedaan signifikan:")
 print(significant_differences)
-
-# Plotting scatter plot between two variables
-library(ggplot2)
-
-ggplot(data=data, aes(x = puas_kua, y = puas_pri)) +
-  geom_point() +
-  labs(title = "Scatter Plot",
-       x = "puas_layanan",
-       y = "puas_price")
-
