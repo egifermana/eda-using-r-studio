@@ -1,5 +1,5 @@
 # Read CSV file
-data <- read.csv("data.csv", header=TRUE)
+data <- read.csv("data.csv", header = TRUE)
 
 # No. 1, mean dan standar deviasi dari demografi
 demographic <- aggregate(cbind(usia, sex, didik, status) ~ kota, data = data,
