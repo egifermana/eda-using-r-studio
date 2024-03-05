@@ -1,1 +1,1 @@
-# Exploratory Data Analysis using R
+# Case Study: Customer Satisfaction, R Studio
